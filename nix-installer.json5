@@ -1,0 +1,11 @@
+{
+  "regexManagers": [
+    {
+      "fileMatch": ["^NixTasks\\.yml$"],
+      "matchStrings": ["VERSION: \"(?<currentValue>.*?)\""],
+      "depNameTemplate": "nix",
+      "datasourceTemplate": "github-releases",
+      "lookupNameTemplate": "DeterminateSystems/nix-installer"
+    }
+  ]
+}
